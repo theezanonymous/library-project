@@ -1,8 +1,9 @@
 const myLibrary = [];
 const dialog = document.querySelector("dialog")
-function Book(title, author, color) {
+class Book {
   // the constructor...
-  this.title = title; this.author = author; this.backgroundColor = color; 
+  constructor(title, author, color){
+  this.title = title; this.author = author; this.backgroundColor = color; }
 //   console.log(this.title, this.author, this.backgroundColor)
 }
 
